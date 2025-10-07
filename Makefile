@@ -40,7 +40,8 @@ endif
 
 # GLFW Should be installed and visible in the system path for this to work!
 ifeq ($(UNAME_CMD), Darwin)
-  GLFW_LIB = -L/usr/local/lib -lglfw3
+  CXXFLAGS += -I/opt/homebrew/opt/glfw/include
+  GLFW_LIB += -L/opt/homebrew/opt/glfw/lib -lglfw
 endif
 ifeq ($(UNAME_CMD), Linux)
   CXXFLAGS += `pkg-config --cflags glfw3`
