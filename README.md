@@ -1,8 +1,6 @@
 
 # Core OpenGL demos and tests
 
-[![Build Status](https://travis-ci.org/glampert/gl-core-samples.svg)](https://travis-ci.org/glampert/gl-core-samples)
-
 Core OpenGL demos and tests written in C++11.
 
 ![gl-core-denos](https://raw.githubusercontent.com/glampert/gl-core-demos/main/assets/samples.png "gl-core-samples")
